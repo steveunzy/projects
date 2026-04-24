@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utatu Medicals and Maternity Centre – Adjumani</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo" style="text-decoration: none; color: white; display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                <img src="images/logo.png" alt="Utatu Medicals Logo" style="height: 100px; width: auto; border-radius: 5px;">
+                <span>Utatu Medicals</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#maternity">Maternity</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#appointments">Appointments</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Emergency & WhatsApp Buttons -->
+    <div class="floating-buttons">
+        <a href="tel:0785630795" class="emergency-btn" title="Emergency Call">
+            <i class="fas fa-phone"></i>
+            <span>EMERGENCY</span>
+        </a>
+        <a href="https://wa.me/256785630795" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/logo.PNG" alt="Utatu Medicals Logo" style="height: 80px; width: auto; margin-bottom: 30px; border-radius: 8px;">
+            <h1>Welcome to Utatu Medicals and Maternity Centre</h1>
+            <p class="tagline">Affordable, Quality Healthcare for All</p>
+            <p class="subtitle">Preventive, Curative, and Rehabilitative Healthcare Services</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('appointments').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-calendar-alt"></i> Book Appointment
+                </button>
+                <a href="tel:0785630795" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+            </div>
+            <div class="clinic-info">
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-text">5/5 (5 reviews)</span>
+                </div>
+                <div class="phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>0785 630795</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Utatu Medicals and Maternity Centre – Adjumani</h3>
+                    <p>We are a private health facility committed to providing quality healthcare services at very affordable prices. Our mission is to ensure that everyone in Adjumani and surrounding areas has access to preventive, curative, and rehabilitative healthcare regardless of their financial status.</p>
+                    <aside style="text-align: center; margin: 40px 0; padding: 30px; background: linear-gradient(135deg, rgba(0,168,132,0.05), rgba(0,102,204,0.05)); border-radius: 12px;">
+                        <img src="images/staffs.PNG" alt="Utatu Medical Staff" style="display: block; max-width: 500px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); margin: 0 auto;">
+                        <p style="margin-top: 15px; font-style: italic; color: #555; font-size: 14px;">Our dedicated medical staff committed to your health</p>
+                    </aside>
+                    
+                    <div class="values">
+                        <div class="value-item">
+                            <h4><i class="fas fa-bullseye"></i> Our Mission</h4>
+                            <p>To deliver compassionate, quality healthcare services that are affordable and accessible to all members of our community.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4><i class="fas fa-eye"></i> Our Vision</h4>
+                            <p>A healthy community where every individual has access to quality medical care and maternal health services without financial hardship.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4><i class="fas fa-heart"></i> Core Values</h4>
+                            <p>Compassion, Integrity, Quality, Affordability, and Community-Centered Care.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Comprehensive Healthcare Services for Your Entire Family</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>General Outpatient Consultation</h3>
+                    <p>Professional medical consultation for acute and chronic health concerns. Experienced doctors available for diagnosis and treatment.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <h3>Maternal & Child Health</h3>
+                    <p>Antenatal care, safe delivery services with skilled attendants, postnatal care, and baby care services for the health of mother and child.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Family Planning Services</h3>
+                    <p>Comprehensive family planning counseling and services to help families make informed decisions about reproduction.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <h3>Immunization & Vaccination</h3>
+                    <p>Complete immunization programs for children and vaccination services for adults. CDC-approved vaccines for disease prevention.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Laboratory Services</h3>
+                    <p>Full blood tests, diagnostics, and laboratory analysis to support accurate diagnosis and treatment decisions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-prescription-bottle"></i>
+                    </div>
+                    <h3>Pharmacy & Dispensary</h3>
+                    <p>Well-stocked pharmacy with quality medicines at affordable prices. Professional pharmacy staff for medication guidance.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-scalpel"></i>
+                    </div>
+                    <h3>Minor Surgical Procedures</h3>
+                    <p>Safe minor surgical procedures including wound care, abscess drainage, and basic surgical interventions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Emergency & First Aid</h3>
+                    <p>24/7 emergency services and first aid care for acute medical and surgical emergencies.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ribbon"></i>
+                    </div>
+                    <h3>HIV Testing & Care</h3>
+                    <p>Confidential HIV testing, counseling services, and management for those affected by HIV/AIDS.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Chronic Disease Management</h3>
+                    <p>Management of chronic conditions like diabetes, hypertension, and other long-term health issues with regular monitoring.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Rehabilitation Services</h3>
+                    <p>Physiotherapy, rehabilitation exercises, and basic care to restore function and improve quality of life.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Health Education & Prevention</h3>
+                    <p>Community health education programs and preventive care strategies to promote wellness and disease prevention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maternity Section -->
+    <section id="maternity" class="maternity">
+        <div class="container">
+            <h2>Maternal & Child Health Excellence</h2>
+            <aside style="text-align: center; margin: 0 0 40px 0; padding: 30px; background: linear-gradient(135deg, rgba(0,168,132,0.05), rgba(0,102,204,0.05)); border-radius: 12px;">
+                <img src="images/theatre.PNG" alt="Utatu Theatre Facility" style="display: block; max-width: 600px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); margin: 0 auto;">
+                <p style="margin-top: 15px; font-style: italic; color: #555; font-size: 14px;">State-of-the-art delivery theatre facility</p>
+            </aside>
+            <div class="maternity-content">
+                <div class="maternity-features">
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Safe Delivery Services</h4>
+                        <p>Modern delivery facilities with proper hygiene standards and emergency protocols to ensure safe childbirth.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-user-md"></i>
+                        <h4>Skilled Birth Attendants</h4>
+                        <p>Experienced and trained midwives and doctors dedicated to safe and compassionate childbirth care.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heartbeat"></i>
+                        <h4>Prenatal Care</h4>
+                        <p>Comprehensive antenatal care including monitoring, nutrition counseling, and preparation for childbirth.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-baby"></i>
+                        <h4>Baby Care Services</h4>
+                        <p>Newborn care, immunization, and infant health monitoring to ensure healthy development.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heart"></i>
+                        <h4>Postnatal Care</h4>
+                        <p>Follow-up care for mothers and babies after delivery, including health checks and support.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-phone-alt"></i>
+                        <h4>24/7 Availability</h4>
+                        <p>Always ready to handle maternal emergencies and provide support whenever you need us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Patient Testimonials</h2>
+            <p class="section-subtitle">Hear from our satisfied patients</p>
+            
+            <div class="rating-summary">
+                <div class="rating-display">
+                    <div class="big-stars">★★★★★</div>
+                    <p class="rating-number">5.0 out of 5</p>
+                    <p class="review-count">Based on 5 verified reviews</p>
+                </div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Utatu medical and maternity home is a specialized facility that provides multi functional services to the community of Adjumani and beyond. It provides maternal and child care services, managing various medical cases and surgical procedures including specialized procedures like orthopedic surgery. It has various laboratory services, radiology and radiography services."</p>
+                    <p class="reviewer-name">— Richard Ocaya</p>
+                    <p class="review-service">Local Guide · Facilities Overview</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"I delivered my baby here and the experience was amazing. The midwives were supportive and everything went smoothly. Thank you, Utatu!"</p>
+                    <p class="reviewer-name">— Sarah Amanyi</p>
+                    <p class="review-service">Maternity Services</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Great healthcare services at very reasonable prices. The staff is friendly and the clinic is very clean. Highly recommended!"</p>
+                    <p class="reviewer-name">— Henry Kasoki</p>
+                    <p class="review-service">Laboratory Services</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"My child's immunization was handled professionally. The doctors explained everything clearly and made us feel comfortable throughout."</p>
+                    <p class="reviewer-name">— Patience Adongo</p>
+                    <p class="review-service">Immunization</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Excellent management of my diabetes. The doctor is patient and thorough. The medication prices are affordable. Very satisfied with the service!"</p>
+                    <p class="reviewer-name">— Joseph Okwir</p>
+                    <p class="review-service">Chronic Disease Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointments Section -->
+    <section id="appointments" class="appointments">
+        <div class="container">
+            <h2>Book an Appointment</h2>
+            <p class="section-subtitle">Schedule your visit at your convenience</p>
+            
+            <div class="appointment-content">
+                <div class="appointment-form-container">
+                    <form class="appointment-form" id="appointmentForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="256..." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Select Service *</label>
+                            <select id="service" name="service" required>
+                                <option value="">-- Choose a Service --</option>
+                                <option value="General Consultation">General Outpatient Consultation</option>
+                                <option value="Maternal Care">Maternal & Child Health</option>
+                                <option value="Family Planning">Family Planning Services</option>
+                                <option value="Immunization">Immunization & Vaccination</option>
+                                <option value="Laboratory">Laboratory Services</option>
+                                <option value="Pharmacy">Pharmacy Services</option>
+                                <option value="Surgical">Minor Surgical Procedures</option>
+                                <option value="Emergency">Emergency & First Aid</option>
+                                <option value="HIV Testing">HIV Testing & Counseling</option>
+                                <option value="Chronic Disease">Chronic Disease Management</option>
+                                <option value="Rehabilitation">Rehabilitation Services</option>
+                                <option value="Health Education">Health Education</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Preferred Date *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Notes (Optional)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your health concern..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Book Appointment</button>
+                        <p class="form-note">We'll confirm your appointment via phone call or WhatsApp</p>
+                    </form>
+                </div>
+
+                <div class="quick-contact">
+                    <h3>Quick Contact</h3>
+                    <div class="contact-option">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p>Call Us</p>
+                            <a href="tel:0785630795">0785 630795</a>
+                        </div>
+                    </div>
+                    <div class="contact-option">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <p>WhatsApp</p>
+                            <a href="https://wa.me/256785630795" target="_blank">Message on WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="contact-option">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <p>Operating Hours</p>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                            Saturday: 9:00 AM - 4:00 PM<br>
+                            Sunday: By Appointment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p class="section-subtitle">Find answers to common health questions</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What are your operating hours?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We are open Monday to Friday from 8:00 AM to 6:00 PM, Saturday from 9:00 AM to 4:00 PM. We also provide emergency services 24/7. Sunday appointments are available by prior arrangement.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you accept walk-in patients?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we welcome walk-in patients. However, to minimize waiting time, we recommend booking an appointment in advance using our booking form or by calling 0785 630795.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What payment methods do you accept?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We accept cash payments and mobile money transfers (MTN, Airtel). Our services are designed to be affordable for everyone. Payment plans are available for major procedures.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you have maternity services?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we provide comprehensive maternity services including antenatal care, safe delivery with skilled attendants, postnatal care, and newborn services. We also offer family planning counseling.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Are your doctors qualified and registered?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, all our doctors and healthcare professionals are fully qualified, registered with the Uganda Medical and Dental Practitioners' Council, and have extensive experience in their respective fields.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What laboratory tests do you offer?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer a wide range of laboratory tests including blood tests, malaria tests, typhoid, stool tests, urine analysis, and other diagnostic tests. Results are typically available within 24 hours.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is there parking available?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we have parking facilities available for our patients. Our clinic is easily accessible and located in a convenient area of Adjumani.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I get my test results?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Test results can be collected in person at the clinic during our operating hours, or we can send them via phone call or WhatsApp. We maintain strict confidentiality of all medical records.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>9QHQ+7RR, Adjumani, Uganda</p>
+                        <p class="contact-detail"><a href="https://maps.google.com/?q=9QHQ%2B7RR+Adjumani" target="_blank" style="color: inherit; text-decoration: underline;">View on Google Maps</a></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:0785630795">0785 630795</a>
+                        <p class="contact-detail">Available for consultations and bookings</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/256785630795" target="_blank">+256 785 630795</a>
+                        <p class="contact-detail">Quick messaging and appointment booking</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Hours</h3>
+                        <p><strong>Mon - Fri:</strong> 8:00 AM - 6:00 PM</p>
+                        <p><strong>Saturday:</strong> 9:00 AM - 4:00 PM</p>
+                        <p><strong>Emergency:</strong> 24/7</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5034314145447!2d31.8309!3d3.3733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177c8a9b9b9b9b9b%3A0x177c8a9b9b9b9b9b!2sAdjumani%2C%20Uganda!5e0!3m2!1sen!2sug!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/logo.PNG" alt="Utatu Medicals Logo" style="height: 60px; width: auto; margin-bottom: 15px; border-radius: 5px;">
+                    <h4>Utatu Medicals</h4>
+                    <p>Providing affordable, quality healthcare services to Adjumani and surrounding communities.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/256785630795" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="tel:0785630795" title="Call Us"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#maternity">Maternity Care</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#appointments">Book Appointment</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">General Consultation</a></li>
+                        <li><a href="#services">Maternity Care</a></li>
+                        <li><a href="#services">Laboratory</a></li>
+                        <li><a href="#services">Emergency Care</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 0785 630795</p>
+                    <p><i class="fas fa-map-marker"></i> Adjumani, Uganda</p>
+                    <p><strong>Email:</strong> info@utaturmedicals.ug</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Utatu Medicals and Maternity Centre – Adjumani. All rights reserved.</p>
+                <p class="disclaimer">This website is for informational purposes. Always consult with qualified healthcare professionals for medical advice.</p>
+                <a href="#home" class="back-to-top" style="color: var(--primary-color); text-decoration: none; margin-top: 15px; display: inline-block; font-weight: 600; transition: color 0.3s;">
+                    ↑ Back to Top
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
